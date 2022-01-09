@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct AppTabView: View {
+    
+    // For non-transparent tab bar background
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.secondarySystemBackground
+      }
+    
     var body: some View {
         TabView {
             LocationMapView()
@@ -25,7 +31,8 @@ struct AppTabView: View {
                     Label("Profile", systemImage: "person")
                 }
         }
-        .accentColor(.brandPrimary)
+        
+        
     }
 }
 

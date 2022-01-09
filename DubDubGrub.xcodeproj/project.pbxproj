@@ -15,6 +15,7 @@
 		CE895C51278B128E00326869 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE895C50278B128E00326869 /* LocationMapView.swift */; };
 		CE895C53278B12AE00326869 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE895C52278B12AE00326869 /* LocationListView.swift */; };
 		CE895C55278B12BE00326869 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE895C54278B12BE00326869 /* ProfileView.swift */; };
+		CE895C57278B20DD00326869 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE895C56278B20DC00326869 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE895C50278B128E00326869 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
 		CE895C52278B12AE00326869 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		CE895C54278B12BE00326869 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CE895C56278B20DC00326869 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				CE895C4E278B125300326869 /* AppTabView.swift */,
 				CE895C50278B128E00326869 /* LocationMapView.swift */,
 				CE895C52278B12AE00326869 /* LocationListView.swift */,
+				CE895C56278B20DC00326869 /* LocationDetailView.swift */,
 				CE895C54278B12BE00326869 /* ProfileView.swift */,
 			);
 			path = DubDubGrub;
@@ -162,6 +165,7 @@
 				CE895C3B278AD11300326869 /* DubDubGrubApp.swift in Sources */,
 				CE895C51278B128E00326869 /* LocationMapView.swift in Sources */,
 				CE895C53278B12AE00326869 /* LocationListView.swift in Sources */,
+				CE895C57278B20DD00326869 /* LocationDetailView.swift in Sources */,
 				CE895C4F278B125300326869 /* AppTabView.swift in Sources */,
 				CE895C55278B12BE00326869 /* ProfileView.swift in Sources */,
 				CE895C4D278B11F700326869 /* Color+Ext.swift in Sources */,
